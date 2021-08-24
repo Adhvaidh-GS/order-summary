@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800&family=Lexend+Deca:wght@100;200;300;400;500;600&display=swap');
+
+
+
+
+
+
+.card-container {
+    position: absolute;
+    width: 75%;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+/* 
+.card {
+
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    margin: 200px auto;
+    align-items: center;
+    justify-content: center;
+}
+ */
+
+.card {
+    position: absolute;
+    display: flex;
+    margin: 10%;
+   
+}
+
+
+.card-1, .card-2, .card-3 {
+    padding: 25px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.card-title{
+    font-size: 35px;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+.card-1 {
+    border-radius: 5px 0 0 5px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+    border-radius: 0 5px 5px 0;
+    background-color: hsl(179, 100%, 13%);
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.card-title-1 {
+    padding-bottom: 30px;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+}
+
+.card-description :first-child{
+    margin-top: 30px;
+    
+}
+
+.card-description {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-btn{
+    margin-top: 50px;
+    margin-right: 90px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+    font-family:'Lexend Deca', sans-serif;
+}
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-1:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);   
+}
+
+.btn-2:hover {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn-3:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.footer {
+    position: absolute;
+    margin-top: 50%;
+    font-family:'Lexend Deca', sans-serif;
+    margin-left: 45%;
+}
+
+
+
+@media only screen and (max-width:360px) {
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-1 {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .card-3 {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .card-container {
+        position: absolute;
+        width: 75%;
+        height: 140%; 
+       margin-left: 15%;
+    }
+
+    .card-1, .card-2, .card-3 {
+        padding: 25px;
+        width: 90%;
+        height: 100%;
+    }
+
+    .card-btn{
+        margin-right: 60%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-1 {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .card-3 {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .card-container {
+        width: 75%;
+        height: 170%; 
+        margin-left: 6%;
+        padding-right: 50px;
+    }
+
+    .card-btn{
+        font-size: 10px;
+    }  
+
+    .footer {
+        margin-top: 290%;
+        margin-left: 35%;
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width:900px) {
+
+    .footer {
+        margin-top: 360%;
+        margin-left: 32%;
+    }
+
+    .card-container {
+        height: 240%; 
+        width: 75%;
+    }
+
+}
+
+
+@media only screen and (max-width:352px) {
+    .footer {
+        margin-top: 420%;
+        margin-left: 32%;
+    }
+
+    .card-container {
+        height: 245%; 
+    }
+
+}
+
+
+
+
+
